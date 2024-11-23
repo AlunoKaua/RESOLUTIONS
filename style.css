@@ -3,60 +3,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   font-family: 'Inter';
+    font-family: 'Figtree';
 }
 @font-face {
-    font-family: 'Inter';  
-    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'); 
-    font-style: normal; 
+    font-family: 'Figtree';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 body{
-    background-color: rgb(18, 18, 18);
+    background-color: #F2CA50;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
-#container-links{
-    margin: 30% auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    line-height: 30px;
-    background-color: rgb(30, 30, 30);
-    justify-content: center;
-    height: 550px;
-    width: 400px;
-    padding: 20px;
-    border-radius: 10px;
-    color: white;
+#card-container{
+margin: 110px auto;
+border-radius: 10px;
+box-shadow: 10px 10px;
+height: 510px;
+width: 390px;
+background-color: white;
+padding: 20px;
 }
-#foto-perfil img{
+.content_imagem img{
+    margin: 0 10px;
+ border-radius: 10px;
+}
+.btn-learning{
+    text-decoration: none;
+    background-color: #F2CA50;
+    color: black;
+    padding: 5px;
+    border-radius: 5%;
     
-    margin: 0 30%;
-    border-radius:50%;
-    width: 99px;
-    height: 99px;
+   
+}
+.container-text__desc {
+    margin: 15px 10px 5%;
+    line-height: 28px;
+padding: 4px ;
 
 }
-#flex-list{
-    list-style-type: none;
-    
+.container-text__desc span{
+color: rgb(147, 145, 145);
 }
-a{
-color: whitesmoke;
-text-decoration: none;
-}
-li{
-    background-color: rgb(80, 78, 78);
-    margin: 17px;
-    padding: 5px;
-    border-radius: 5px;
-    transition: 0.3s ease;
-}
-span{
-  color: greenyellow;
-  font-weight: bold;
-}
-li:hover{
-background-color: rgba(169, 249, 50, 0.693);
+#container-avatar{
+    display: flex;
+    align-items: center;
+  gap: 20px;
 }
